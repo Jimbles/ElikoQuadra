@@ -13,7 +13,7 @@ Add the `src` folder to matlab path
 Read data files output from the Eliko Quadra MUX GUI v1.12
 
 ```matlab
-Data=Data=quadra.readdata('example.txt');
+Data=quadra.readdata('example.txt');
 ```
 
 ### Write table file
