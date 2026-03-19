@@ -60,7 +60,7 @@ hold on
 plot(cDataB(:,1))
 plot(cDataP(:,1))
 plot(cDataP(:,1)-cDataB(:,1))
-xlim([0 size(cData,1)])
+xlim([0 size(cDataB,1)])
 legend('Baseline','Perturbation','Difference')
 xlabel('Measurement channel')
 ylabel('Re (Z)')
